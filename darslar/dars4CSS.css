@@ -1,0 +1,52 @@
+/* External */
+/* *{
+    color: rebeccapurple;
+    background-color: yellow;
+} */
+ h5{
+    color: black;
+    background-color: aqua;
+} 
+/* class selector */
+.hello{
+    color: blue;
+    background-color: crimson;
+}
+/* id selector */
+#ukam{
+    color: brown;
+    background-color: blueviolet;
+}
+
+#kerak{
+    background-color: darkblue;
+
+}
+img[alt='tesla1']{
+    width: 200px;
+    height: 50px;
+}
+img[alt='tesla2']{
+    width: 400px;
+}
+a[href='youtube.com']{
+    color: red;
+    background-color: aqua;
+}
+
+a[href='telegram.org']{
+    color: black;
+    background-color: khaki;
+}
+div{
+    background-color: khaki;
+}
+.salom{
+    background-color: blue;
+}
+.big{
+    background-color: blueviolet;
+}
+.small h4 {
+    background-color: lightcoral;
+}
