@@ -1,0 +1,42 @@
+h1 {
+    color: red;
+    background-color: aqua;
+    /* razmer */
+    font-size: 40px;
+    /* xarflar orasidagi joy */
+    letter-spacing: 30px;
+}
+p {
+    background-color: lightcyan;
+    /* value: start, center, end */
+    text-align: justify;
+    /* chiziq balandligi */
+    line-height: 40px;
+}
+h3 {
+    /* font-family: 'Smooch', cursive; */
+    /* 300-900 */
+    font-style: 10;
+    font-weight: lighter;
+    
+    /* uppercase, capitalize, lowercase */
+    text-transform: capitalize;
+    /* line = overline, line throuh, underline;solid, wavy, dotted,  */
+    text-decoration: underline wavy;
+    text-decoration: overline dashed;
+}
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'League Gothic', sans-serif;
+}
+h4 {
+    font-family: 'Splash', cursive;
+    font-size: 50px;
+    text-decoration: underline dashed;
+    text-transform: lowercase;
+
+    /* text-shadow: ; */
+}
