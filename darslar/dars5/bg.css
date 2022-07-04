@@ -19,7 +19,7 @@
 
 .linear {
 background-image: linear-gradient(to top left,
-    rgba(0, 128, 0, 0.425), 
+    rgba(0, 128, 0, 0.596), 
     rgba(255, 0, 0, 0.37),
     rgba(255, 255, 255, 0.493), 
     rgba(255, 255, 0, 0.5)), 
@@ -34,10 +34,12 @@ background-image: linear-gradient(to top left,
 
 .radial {
     background: radial-gradient(circle, red, yellow, blue);
+    opacity: 0.3;
     height: 400px;
 }
 .aka {
     background-image: radial-gradient(circle, rgba(0, 0, 255, 0.336), rgba(0, 128, 0, 0.37),  rgba(255, 0, 0, 0.39)), url(/Pictures/audi.jpg);
+    opacity: 0.5;
 
     height: 500px;
     background-repeat: no-repeat;
